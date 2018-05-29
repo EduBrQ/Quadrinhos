@@ -18,9 +18,7 @@
     </div>
 
     <div class="main-panel">
-        @include('template.topmenu')
-
-        @include('template.content')
+        @include('quadrinhos.index')
 
 
 

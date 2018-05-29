@@ -22,8 +22,6 @@
 
         @include('template.content')
 
-
-
         {{--@include('template.footer')--}}
     </div>
 </div>

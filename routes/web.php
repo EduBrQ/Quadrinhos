@@ -10,6 +10,9 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/home', 'HomeController@index')->name('home');
     Route::resource('/produtos', 'ProdutosController');
     Route::get('/produtos/{id}/delete', 'ProdutosController@delete');
+    Route::get('/aboutme', 'AboutmeController@index')->name('aboutme');
+    Route::get('/quadrinho', 'QuadrinhoController@index')->name('quadrinho');
+
 
 //COLEÇÕES
     Route::resource('/colecoes', 'ColecaoRevistasController');
@@ -31,6 +34,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/emprestimos/create/{id}', 'EmprestimoController@create');
     Route::get('/emprestimos/{id}/delete', 'EmprestimoController@delete');
     Route::get('/emprestimos/{id}/edit', 'EmprestimoController@edit');
+
 
 
 });

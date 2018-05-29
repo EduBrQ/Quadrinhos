@@ -26,6 +26,7 @@
                             <b class="caret"></b>
                         </p>
                     </a>
+
                     <ul class="dropdown-menu">
                         <li><a href="#">Notificação 1</a></li>
                         <li><a href="#">Notificação 2</a></li>
@@ -40,6 +41,7 @@
                         <p class="hidden-lg hidden-md">Procurar</p>
                     </a>
                 </li>
+
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
@@ -80,3 +82,4 @@
         </div>
     </div>
 </nav>
+

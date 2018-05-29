@@ -14,15 +14,13 @@
 
         -->
 
-        @include('template.sidemenu')
+
     </div>
 
     <div class="main-panel">
-        @include('template.topmenu')
+
 
         @include('template.content')
-
-
 
         {{--@include('template.footer')--}}
     </div>
