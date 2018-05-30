@@ -41,18 +41,20 @@
                 <div class="content table-responsive table-full-width">
                     <table class="table table-hover table-striped">
                         <thead>
-                        <th>Nome</th>
+                        <th>Amigo</th>
+                        <th>Amigo</th>
                         <th>Apelido</th>
                         <th>telefone</th>
                         <th>Rua</th>
                         <th>Bairro</th>
                         <th>Cidade</th>
                         <th>Estado</th>
-                        <th>Foto</th>
+
                         </thead>
                         <tbody>
                         @foreach($amigos as $chave => $nome)
                             <tr>
+                                <td><img src="/uploads/avatars/{{ $nome->avatar }}" style="width:32px; height:32px; top:10px; left:10px; border-radius:50%;"></td>
                                 <td>{{ $nome->nome}}</td>
                                 <td>{{ $nome->apelido }}</td>
                                 <td>{{ $nome->telefone}}</td>
@@ -60,7 +62,8 @@
                                 <td>{{ $nome->bairro }}</td>
                                 <td>{{ $nome->cidade }}</td>
                                 <td>{{ $nome->estado }}</td>
-                                <td>{{ $nome->foto }}</td>
+
+
 
 
                                 <td class="text-center">
@@ -76,13 +79,15 @@
                                                                 class="pe-7s-note"></i>
                                                         Editar Titulos</a>
                                                 </li>
+
                                                 <li>
-                                                    <a href="{{url('amigoss/' . $nome ->id . '/delete')}}"><i
+                                                    <a href="{{url('amigos/' . $nome ->id . '/delete')}}"><i
                                                                 class="pe-7s-trash"></i>
                                                         Excluir Titulos</a>
                                                 </li>
                                             </ul>
                                         </li>
+
                                     </ul>
                                 </td>
                             </tr>

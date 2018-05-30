@@ -13,6 +13,19 @@
                     <div class="row">
                         <div class="col-md-5">
                             <div class="form-group">
+
+                                <label>Imagem</label>
+                                <input type="hidden" name="MAX_FILE_SIZE" value="99999999"/>
+                                <input type="file" name="imagem" class="form-control" placeholder="Imagem">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="form-group">
                                 <label>Nome</label>
                                 <input type="text" name="nome" class="form-control" placeholder="Nome">
                             </div>

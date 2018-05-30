@@ -38,18 +38,26 @@
                     <table class="table table-hover table-striped">
                         <thead>
                         <tr>
+                            <th>#</th>
                             <th>Edição</th>
                             <th>Nome</th>
                             <th>Editora</th>
+                            <th>Acervo</th>
                             <th class="text-center">Ações</th>
                         </tr>
                         </thead>
                         <tbody>
                         @foreach($colecoes as $chave => $colecao)
                             <tr>
+                                <td>{{ $colecao->imagem }}</td>
                                 <td>{{ $colecao->n_edicao }}</td>
                                 <td>{{ $colecao->nome}}</td>
                                 <td>{{ $colecao->editora}}</td>
+                                <td>
+                                    <a href="{{url('colecoes/' . $colecao->id . '/titulos')}}"><i
+                                                class="pe-7s-note"></i>
+                                        Títulos</a>
+                                </td>
 
                                 <td class="text-center">
                                     <ul class="nav navbar-nav navbar-right">
@@ -59,11 +67,7 @@
                                                 <b class="caret hidden-sm hidden-xs"></b>
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li>
-                                                    <a href="{{url('colecoes/' . $colecao->id . '/titulos')}}"><i
-                                                                class="pe-7s-note"></i>
-                                                        Títulos</a>
-                                                </li>
+
                                                 <li>
                                                     <a href="{{url('colecoes/' . $colecao->id . '/edit')}}"><i
                                                                 class="pe-7s-note"></i>

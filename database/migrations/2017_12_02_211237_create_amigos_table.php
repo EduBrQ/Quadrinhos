@@ -17,6 +17,7 @@ class CreateAmigosTable extends Migration
             $table->increments('id');
             $table->string('nome');
             $table->string('apelido');
+            $table->string('avatar')->default('default.jpg');
             $table->string('telefone');
             $table->string('rua');
             $table->string('bairro');

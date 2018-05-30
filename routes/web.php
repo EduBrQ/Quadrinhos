@@ -12,6 +12,11 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/produtos/{id}/delete', 'ProdutosController@delete');
     Route::get('/aboutme', 'AboutmeController@index')->name('aboutme');
     Route::get('/quadrinho', 'QuadrinhoController@index')->name('quadrinho');
+    Route::get('/profile', 'UserController@profile');
+    Route::post('/profile', 'UserController@update_avatar');
+
+
+
 
 
 //COLEÇÕES

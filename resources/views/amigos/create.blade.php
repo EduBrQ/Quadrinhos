@@ -75,15 +75,6 @@
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="col-md-5">
-                            <div class="form-group">
-                                <label>Foto</label>
-                                <input type="image" name="foto" class="form-control" placeholder="foto">
-                            </div>
-                        </div>
-                    </div>
-
                     {{--<input type="hidden" name="id_colecao" value="{{ $id }}">--}}
                     <input type="hidden" name="id_user" value="{{ Auth::user()->id }}">
 

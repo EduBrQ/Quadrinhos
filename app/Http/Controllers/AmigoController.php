@@ -3,6 +3,8 @@
 use App\Amigo;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Requests;
+use Image;
 
 class AmigoController extends Controller
 {
@@ -13,6 +15,8 @@ class AmigoController extends Controller
 
         return view('amigos.index', compact('amigos'));
     }
+
+
 
     public function create()
     {

@@ -45,25 +45,15 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="">
-                        <p>Conta</p>
-                    </a>
-                </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <p>
-                            Dropdown
-                            <b class="caret"></b>
-                        </p>
-
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="position:relative; padding-left:50px;">
+                        <img src="/uploads/avatars/{{ Auth::user()->avatar }}" style="width:32px; height:32px; position:absolute; top:10px; left:10px; border-radius:50%">
+                        {{ Auth::user()->name }} <span class="caret"></span>
                     </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Meu Perfil</a></li>
-                        <li><a href="#">Amigos Cadastrados</a></li>
-                        <li><a href="#">Sites de compra</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Animes</a></li>
+
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="{{ url('/profile') }}"><i class="fa fa-btn fa-user"></i>Profile</a></li>
+                        <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
                     </ul>
                 </li>
                 <li>

@@ -8,7 +8,7 @@ class ColecaoRevistas extends Model
 {
     protected $table = 'colecoes';
 
-    protected $fillable = ['id_user','n_edicao','nome','editora'];
+    protected $fillable = ['id_user','n_edicao','nome','editora', 'imagem'];
 
     public function user()
     {
