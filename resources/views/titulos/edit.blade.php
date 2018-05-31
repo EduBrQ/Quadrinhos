@@ -58,6 +58,40 @@
                         </div>
                     </div>
 
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <label>Review</label>
+                                <input type="text" name="review" value="{{ $titulos->review }}"class="form-control" placeholder="Review">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <label>Nota</label>
+                                <input type="text" name="nota" value="{{ $titulos->nota }}"class="form-control" placeholder="Nota">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <label>Conservação</label>
+                                <input type="text" name="conservacao" value="{{ $titulos->conservacao }}"class="form-control" placeholder="Conservação">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <label>Apego</label>
+                                <input type="text" name="apego" value="{{ $titulos->apego }}"class="form-control" placeholder="Apego">
+                            </div>
+                        </div>
+                    </div>
+
                     <input type="hidden" name="id_colecao" value="{{ $titulos->id_colecao }}">
                     <input type="hidden" name="id_user" value="{{ Auth::user()->id }}">
 

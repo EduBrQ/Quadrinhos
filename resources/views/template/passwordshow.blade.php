@@ -1,9 +1,7 @@
 <script src="//static.codepen.io/assets/editor/live/console_runner-ce3034e6bde3912cc25f83cccb7caa2b0f976196f2f2d52303a462c826d54a73.js"></script><script src="//static.codepen.io/assets/editor/live/css_live_reload_init-890dc39bb89183d4642d58b1ae5376a0193342f9aed88ea04330dc14c8d52f55.js"></script><meta charset="UTF-8"><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="//static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico"><link rel="mask-icon" type="" href="//static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111"><link rel="canonical" href="https://codepen.io/n7best/pen/RMxKQr">
 
     <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"><link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300">
-    <style class="cp-pen-styles">html {
-            height: 100%;
-        }
+    <style class="cp-pen-styles">
 
         body {
             background: #6FA5F6;
@@ -11,14 +9,15 @@
             height: 100%;
             display: flex;
             justify-content: center;
-            align-items: center;
-        }
 
+        }
+        .panel
         .password {
-            width: 350px;
-            height: 75px;
+            width: 50%;
+            height: 65px;
+            right: -34%;
             background: #121727;
-            border-radius: 10px;
+            border-radius: 100px;
             position: relative;
             overflow: hidden;
             box-shadow: 0 0 12px 0px rgba(1, 1, 1, 0.25);
@@ -31,7 +30,7 @@
             right: -50%;
             top: 0;
             transition: .20s all ease-in-out;
-            border-radius: 5px;
+            border-radius: 8px;
         }
         .password--visibleToggle {
             position: absolute;

@@ -37,27 +37,27 @@
             position: relative;
             background-color: #f8f8f8;
             height: 100%;
-            width: calc(100% - 250px);
+            width: calc(1100px);
             margin-left: 250px;
             overflow: hidden;
         }
 
         .main {
             display: flex;
-            width: calc(1100px + 100px);
+            width: calc(1100px + 400px);
             height: 100%;
         }
 
         .list,
         .checkout {
             position: relative;
-            width: calc(50% - 50px);
+            width: calc(100%);
         }
 
         header {
             position: fixed;
             background-color: #f8f8f8;
-            width: 534px;
+            width: 1000px;
             height: 60px;
             display: flex;
             align-items: center;
@@ -70,7 +70,6 @@
             float: left;
             margin-right: 15px;
             opacity: 0;
-            transform: translateX(-150px);
             transition: all .2s ease-in;
             color: #999;
             font-weight: 400;
@@ -856,6 +855,7 @@
         </div>
     </div>
 </div>
+</body>
 <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>// press f11 to full page view
     // vote for me at https://www.uplabs.com/posts/fluent-movie-booking

@@ -6,7 +6,7 @@ class Titulo extends Model
 {
     protected $table = 'titulos';
 
-    protected $fillable = ['nome','editora','valor', 'data_lancamento', 'autor', 'review', 'id_colecao', 'id_user'];
+    protected $fillable = ['nome','editora','valor', 'data_lancamento', 'autor', 'review','nota', 'conservacao', 'apego', 'id_colecao', 'id_user'];
 
     public function colecao()
     {

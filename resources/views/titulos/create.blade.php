@@ -58,12 +58,46 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="row">
-                        <div class="col-md-10">
+                        <div class="col-md-5">
                             <div class="form-group">
                                 <label>Review</label>
                                 <textarea name="review" cols="10" rows="5" class="form-control"
                                           placeholder="Meu Review"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <label>Nota</label>
+                                <input type="number" name="nota" class="form-control" placeholder="Nota">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label>Conservação</label><br>
+                                <div>
+                                <input type="radio" name="conservacao" value="Baixo" > Baixo<br><br>
+                                <input type="radio" name="conservacao" value="Médio" checked> Médio<br><br>
+                                <input type="radio" name="conservacao" value="Alto"> Alto
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <label>Apego</label><br>
+                                <div>
+                                    <input type="radio" name="apego" value="Baixo" > Tô nem aí...<br><br>
+                                    <input type="radio" name="apego" value="Medio" checked> Pega, mas cuidado.<br><br>
+                                    <input type="radio" name="apego" value="Alto"> Tá, empresto! Mas se...<br><br>
+                                    <input type="radio" name="apego" value="Extremo"> My precious!
+                                </div>
                             </div>
                         </div>
                     </div>

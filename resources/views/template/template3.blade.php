@@ -18,6 +18,7 @@
     </div>
 
     <div class="main-panel">
+
         @include('quadrinhos.index')
 
 

@@ -20,8 +20,13 @@ class CreateTitulosTable extends Migration
             $table->string('valor');
             $table->string('data_lancamento');
             $table->string('autor');
+            $table->mediumText('review');
+            $table->integer('nota')->default(7);
+            $table->string('conservacao')->default('Bom estado e sem defeitos');
+            $table->string('apego')->default('Normal');
             $table->integer('id_colecao');
             $table->integer('id_user');
+
 
             $table->timestamps();
 

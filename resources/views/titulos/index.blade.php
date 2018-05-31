@@ -43,6 +43,9 @@
                                 <th>Data de lancamento</th>
                                 <th>Autor</th>
                                 <th>Review</th>
+                                <th>Nota</th>
+                                <th>Conservacao</th>
+                                <th>Apego</th>
                                 <th class="text-center">Ações</th>
                         </thead>
                         <tbody>
@@ -55,6 +58,9 @@
                                     <td>{{ $titulo->data_lancamento }}</td>
                                     <td>{{ $titulo->autor }}</td>
                                     <td>{{ $titulo->review }}</td>
+                                    <td>{{ $titulo->nota }}</td>
+                                    <td>{{ $titulo->conservacao }}</td>
+                                    <td>{{ $titulo->apego }}</td>
 
                                 <td class="text-center">
                                     <ul class="nav navbar-nav navbar-right">

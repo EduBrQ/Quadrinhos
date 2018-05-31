@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Auth::routes();
@@ -14,6 +14,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/quadrinho', 'QuadrinhoController@index')->name('quadrinho');
     Route::get('/profile', 'UserController@profile');
     Route::post('/profile', 'UserController@update_avatar');
+    Route::get('/aboutus', 'UserController@aboutus');
 
 
 
