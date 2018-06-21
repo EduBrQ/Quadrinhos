@@ -6,20 +6,19 @@
             <div class="heading-btn-group">
                 <a href="{{ URL::to('/colecoes/create') }}" class="btn btn-success">
                     <i class="pe-7s-albums" style="font-size: 55px"> </i>
-                    <span> Adicionar colecoes</span></a>
+                    <span> Adicionar Coleção</span></a>
             </div>
         </div>
 
         <div class="panel-heading">
             <h4>
-                <i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Projeto</span> -
-                colecoes
+                <i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Minhas Coleções</span>
             </h4>
         </div>
         <hr>
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/"><i class="icon-home2 position-left"></i> Principal</a></li>
-            <li class="breadcrumb-item active">colecoes</li>
+            <li class="breadcrumb-item"><a href="/"><i class="icon-home2 position-left"></i>Home</a></li>
+            <li class="breadcrumb-item active">Coleções</li>
         </ol>
 
     </div>
@@ -32,7 +31,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="header">
-                    <h4 class="title">Colecoes</h4>
+                    <h4 class="title">Coleções</h4>
                 </div>
                 <div class="content table-responsive table-full-width">
                     <table class="table table-hover table-striped">
@@ -69,12 +68,12 @@
                                             <ul class="dropdown-menu">
 
                                                 <li>
-                                                    <a href="{{url('colecoes/' . $colecao->id . '/edit')}}"><i
+                                                    <a style="color: green" href="{{url('colecoes/' . $colecao->id . '/edit')}}"><i
                                                                 class="pe-7s-note"></i>
                                                         Editar colecoes</a>
                                                 </li>
                                                 <li>
-                                                    <a href="{{url('colecoes/' . $colecao ->id . '/delete')}}"><i
+                                                    <a style="color: red" href="{{url('colecoes/' . $colecao ->id . '/delete')}}"><i
                                                                 class="pe-7s-trash"></i>
                                                         Excluir colecoes</a>
                                                 </li>

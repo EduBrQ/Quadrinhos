@@ -69,12 +69,12 @@
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a href="{{url('emprestimos/' . $emprestimo->id . '/edit')}}"><i
+                                                    <a style="color: green" href="{{url('emprestimos/' . $emprestimo->id . '/edit')}}"><i
                                                                 class="pe-7s-note"></i>
                                                         Editar Emprestimos</a>
                                                 </li>
                                                 <li>
-                                                    <a href="{{url('emprestimos/' . $emprestimo ->id . '/delete')}}"><i
+                                                    <a style="color: red" href="{{url('emprestimos/' . $emprestimo ->id . '/delete')}}"><i
                                                                 class="pe-7s-trash"></i>
                                                         Excluir Emprestimos</a>
                                                 </li>

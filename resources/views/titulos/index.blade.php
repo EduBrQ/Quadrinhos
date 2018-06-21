@@ -5,21 +5,21 @@
         <div class="heading-elements" style="text-align: right">
             <div class="heading-btn-group">
                 <a href="{{ URL::to('/titulos/create/'.$colecao->id) }}" class="btn btn-success">
-                    <span> Adicionar Titulos</span></a>
+                    <span> Adicionar Títulos</span></a>
             </div>
         </div>
 
         <div class="panel-heading">
             <h4>
-                <i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Projeto</span> -
-                Titulos da coleção {{$colecao->nome}}
+                <i class="icon-arrow-left52 position-left"></i> <span class="text-semibold"></span>
+                Títulos da Coleção {{$colecao->nome}}
             </h4>
         </div>
         <hr>
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/"><i class="icon-home2 position-left"></i> Principal</a></li>
+            <li class="breadcrumb-item"><a href="/"><i class="icon-home2 position-left"></i>Home</a></li>
             <li class="breadcrumb-item"><a href="/colecoes"><i class="icon-home2 position-left"></i> Coleções</a></li>
-            <li class="breadcrumb-item active">Titulos da coleção {{$colecao->nome}}</li>
+            <li class="breadcrumb-item active">Titulos da Coleção {{$colecao->nome}}</li>
         </ol>
 
     </div>
@@ -71,12 +71,12 @@
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a href="{{url('titulos/' . $titulo->id . '/edit')}}"><i
+                                                    <a style="color: green" href="{{url('titulos/' . $titulo->id . '/edit')}}"><i
                                                                 class="pe-7s-note"></i>
                                                         Editar Titulos</a>
                                                 </li>
                                                 <li>
-                                                    <a href="{{url('titulos/' . $titulo ->id . '/delete')}}"><i
+                                                    <a style="color: red" href="{{url('titulos/' . $titulo ->id . '/delete')}}"><i
                                                                 class="pe-7s-trash"></i>
                                                         Excluir Titulos</a>
                                                 </li>

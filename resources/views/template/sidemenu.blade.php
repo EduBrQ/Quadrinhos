@@ -1,6 +1,6 @@
  <div class="sidebar-wrapper">
     <div class="logo">
-        <a href="#" class="simple-text" style="font-size: large; font-family: 'Axure Handwriting'"" >
+        <a href="#" class="simple-text" style="font-size: large; font-family: 'Axure Handwriting'" >
             MinhaTeca
         </a>
     </div>

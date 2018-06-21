@@ -75,13 +75,13 @@
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a href="{{url('amigos/' . $nome->id . '/edit')}}"><i
+                                                    <a style="color:green;" href="{{url('amigos/' . $nome->id . '/edit')}}"><i
                                                                 class="pe-7s-note"></i>
                                                         Editar Titulos</a>
                                                 </li>
 
                                                 <li>
-                                                    <a href="{{url('amigos/' . $nome ->id . '/delete')}}"><i
+                                                    <a style="color: red" href="{{url('amigos/' . $nome ->id . '/delete')}}"><i
                                                                 class="pe-7s-trash"></i>
                                                         Excluir Titulos</a>
                                                 </li>
