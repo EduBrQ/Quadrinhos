@@ -1,5 +1,6 @@
-# CRUD em Laravel
+# Coleção de HQ - Mangá - Filmes - Anime
 
+## LARAVEL 
 ## Criado por
 
 * José Eduardo Borba Queiróz
