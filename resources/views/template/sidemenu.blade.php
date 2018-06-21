@@ -1,7 +1,7 @@
  <div class="sidebar-wrapper">
     <div class="logo">
-        <a href="/aboutme " class="simple-text">
-            Meus Quadrinhos
+        <a href="#" class="simple-text" style="font-size: large; font-family: 'Axure Handwriting'"" >
+            MinhaTeca
         </a>
     </div>
 
@@ -9,7 +9,7 @@
         <li class="">
             <a href="/home">
                 <i class="pe-7s-graph"></i>
-                <p>Início</p>
+                <p style="font-size: medium; font-family: 'Axure Handwriting'">Filmes</p>
             </a>
         </li>
         <br>
@@ -23,7 +23,7 @@
         <li class="">
             <a href="/colecoes">
                 <i class="pe-7s-box2"></i>
-                <p>Coleções</p>
+                <p style="font-size: medium; font-family: 'Axure Handwriting'">Coleções</p>
             </a>
         </li>
 
@@ -32,7 +32,7 @@
         <li class="">
             <a href="/emprestimos">
                 <i class="pe-7s-refresh-2"></i>
-                <p>Emprestimos</p>
+                <p style="font-size: medium; font-family: 'Axure Handwriting'">Emprestimos</p>
             </a>
         </li>
 
@@ -41,7 +41,7 @@
             <a href="/amigos">
                 <i class="pe-7s-id"></i>
 
-                <p>Amigos</p>
+                <p style="font-size: medium; font-family: 'Axure Handwriting'">Amigos</p>
             </a>
         </li>
         <br>
@@ -53,22 +53,6 @@
 
         <li>
 
-            <div class="toggle-container">
-                <div class="toggle-handle">
-                    <div class="crater crater-one"></div>
-                    <div class="crater crater-two"></div>
-                    <div class="crater crater-three"></div>
-                </div>
-                <img class="mini-cloud" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/480623/toggle_cloud.png">
-                <div class="star star-medium star-one"></div>
-                <div class="star star-large star-two"></div>
-                <div class="star star-small star-three"></div>
-                <div class="star star-small star-four"></div>
-                <div class="star star-medium star-five"></div>
-                <div class="star star-large star-six"></div>
-                <div class="star star-medium star-seven"></div>
-            </div>
-        </li>
 
 
     </ul>
@@ -76,7 +60,6 @@
 </div>
 
 
- <html lang="en" class=""><head><script src="//static.codepen.io/assets/editor/live/console_runner-ce3034e6bde3912cc25f83cccb7caa2b0f976196f2f2d52303a462c826d54a73.js"></script><script src="//static.codepen.io/assets/editor/live/css_live_reload_init-890dc39bb89183d4642d58b1ae5376a0193342f9aed88ea04330dc14c8d52f55.js"></script><meta charset="UTF-8"><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="//static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico"><link rel="mask-icon" type="" href="//static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111"><link rel="canonical" href="https://codepen.io/camstephensdomo/pen/xVgPoo">
 
 
      <style class="cp-pen-styles">* {
@@ -86,7 +69,7 @@
          }
 
          body {
-             background: #222;
+             background: #ffffff;
              transition: background .5s ease 0s;
          }
 
@@ -99,7 +82,7 @@
              margin: auto;
              width: 150px;
              height: 70px;
-             background: #3C4145;
+             background: #133d55;
              border-radius: 35px;
              border: 5.0002px solid #1C1C1C;
              overflow: hidden;
@@ -241,36 +224,5 @@
              opacity: 1 !important;
              left: 40% !important;
          }
-     </style></head><body class="">
-
- <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
- <script>var darkSide = new Audio();
-     darkSide.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/480623/vadar_breathing.mp3";
-
-     var lightSide = new Audio();
-     lightSide.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/480623/yoda_use_the_force.mp3";
-
-     var clickCount = 0;
-
-     $('.toggle-container').on('click', function(){
-         $('.toggle-handle').toggleClass('toggle-handle-day');
-         $('body').toggleClass('off');
-         $('.toggle-container').toggleClass('toggle-container-day');
-         $('.star').toggleClass('star-day');
-         $('.crater').toggleClass('crater-day');
-         $('.mini-cloud').toggleClass('cloud-day');
-         if (clickCount === 0){
-             clickCount++;
-             darkSide.pause();
-             lightSide.play();
-             return darkSide.currentTime = 0;
-         } else if (clickCount === 1){
-             clickCount--;
-             lightSide.pause();
-             darkSide.play();
-             return lightSide.currentTime = 0;
-         }
-     });
-     //# sourceURL=pen.js
- </script>
- </body></html>
+     </style></head>
+ </html>
