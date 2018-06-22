@@ -8,7 +8,7 @@
     <ul class="nav">
         <li class="">
             <a href="/home">
-                <i class="pe-7s-graph"></i>
+                <i class="pe-7s-film"></i>
                 <p style="font-size: medium; font-family: 'Axure Handwriting'">Filmes</p>
             </a>
         </li>
@@ -22,7 +22,7 @@
         {{--</li>--}}
         <li class="">
             <a href="/colecoes">
-                <i class="pe-7s-box2"></i>
+                <i class="pe-7s-box1"></i>
                 <p style="font-size: medium; font-family: 'Axure Handwriting'">Coleções</p>
             </a>
         </li>
