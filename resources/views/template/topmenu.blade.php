@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed" style="background-color: #122b40; border-radius: px">
+<nav class="navbar navbar-default navbar-fixed">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">

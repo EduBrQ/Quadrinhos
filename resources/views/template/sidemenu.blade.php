@@ -1,20 +1,15 @@
- <div class="sidebar-wrapper" style="background-color: #122b40; color: #ab080b">
+ <div class="sidebar-wrapper">
     <div class="logo">
-        <a href="#" class="simple-text" style="font-size: large" >
-            <img src="/uploads/imgs/logo-home-300x247.png" style="width:120px; height:90px; position:center; top:10px; left:10px">
-
+        <a href="#" class="simple-text" style="font-size: large; font-family: 'Axure Handwriting'" >
+            MinhaTeca
         </a>
-        <hr style="height:2px; border:none; color:#000; background-color:white; margin-top: 0px; margin-bottom: 0px;"/>
-        <h3 style="color: white; font-size:20px;text-align: center">{{ Auth::user()->name }} </h3>
-
-        <span></span>
     </div>
 
     <ul class="nav">
         <li class="">
             <a href="/home">
-                <i class="pe-7s-home"></i>
-                <p style="font-size: medium">Início</p>
+                <i class="pe-7s-graph"></i>
+                <p style="font-size: medium; font-family: 'Axure Handwriting'">Filmes</p>
             </a>
         </li>
         <br>
@@ -27,8 +22,8 @@
         {{--</li>--}}
         <li class="">
             <a href="/colecoes">
-                <i class="pe-7s-box1"></i>
-                <p style="font-size: medium">Coleções</p>
+                <i class="pe-7s-box2"></i>
+                <p style="font-size: medium; font-family: 'Axure Handwriting'">Coleções</p>
             </a>
         </li>
 
@@ -37,7 +32,7 @@
         <li class="">
             <a href="/emprestimos">
                 <i class="pe-7s-refresh-2"></i>
-                <p style="font-size: medium">Emprestimos</p>
+                <p style="font-size: medium; font-family: 'Axure Handwriting'">Emprestimos</p>
             </a>
         </li>
 
@@ -46,7 +41,7 @@
             <a href="/amigos">
                 <i class="pe-7s-id"></i>
 
-                <p style="font-size: medium">Amigos</p>
+                <p style="font-size: medium; font-family: 'Axure Handwriting'">Amigos</p>
             </a>
         </li>
         <br>
@@ -108,23 +103,6 @@
              box-shadow: 0px 0px 20px rgba(228, 233, 200, 0.5);
              z-index: 999;
              transition: left .5s ease 0s, background .5s ease 0s, border-color .5s ease 0s, transform .5s ease 0s;
-         }
-         .bg-clip span {
-             position: absolute;
-             bottom: 1rem;
-             display: block;
-             margin-top: 1rem;
-             padding-top: .5rem;
-             font-size: 16px;
-             font-weight: normal;
-             letter-spacing: 2px;
-             text-transform: none;
-             -webkit-text-fill-color: #000;
-             border-top: 3px solid rgba(43, 39, 39, 0.8);
-             transition: opacity .5s ease-in-out;
-         }
-         .header-fixed .header-limiter h1 span {
-             color: #5383d3;
          }
          .toggle-container .toggle-handle .crater {
              position: absolute;

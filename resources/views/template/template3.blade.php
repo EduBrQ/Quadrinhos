@@ -5,7 +5,7 @@
 <body>
 
 <div class="wrapper">
-    <div id="sb" class="sidebar" data-color="hq" data-image= "">
+    <div id="sb" class="sidebar" data-color="hq" data-image= "assets/img/berserk.jpg">
 
         <!--
 
