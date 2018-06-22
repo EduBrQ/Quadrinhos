@@ -5,7 +5,7 @@
 
         </a>
         <hr style="height:2px; border:none; color:#000; background-color:white; margin-top: 0px; margin-bottom: 0px;"/>
-        <h3 style="color: white; font-size:20px;text-align: center">{{ Auth::user()->name }} </h3>
+        
 
         <span></span>
     </div>
