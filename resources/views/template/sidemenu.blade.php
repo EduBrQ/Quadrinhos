@@ -2,6 +2,7 @@
     <div class="logo">
         <a href="#" class="simple-text" style="font-size: large" >
             <img src="/uploads/imgs/logo-home-300x247.png" style="width:120px; height:90px; position:center; top:10px; left:10px">
+            <h3 style="color: white; font-size:20px;text-align: center">{{ Auth::user()->name }} </h3>
 
         </a>
         <hr style="height:2px; border:none; color:#000; background-color:white; margin-top: 0px; margin-bottom: 0px;"/>
